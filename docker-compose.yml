@@ -1,0 +1,32 @@
+version: '2'
+services:
+ zabbix3_2-tutoriaisgnulinux:
+  image: zabbix3_2-tutoriaisgnulinux
+  hostname: zabbix3_2-tutoriaisgnulinux
+  container_name: zabbix3_2-tutoriaisgnulinux
+  privileged: true
+  expose:
+   - "22"
+  ports:
+   - "80:80"
+   - "10050"
+   - "10051:10051"
+  volumes:
+   - /storage/zabbix/mariadb/etc:/etc/mysql
+   - /storage/zabbix/mariadb/dados:/var/lib/mysql
+   - /storage/zabbix/mariadb/logs:/var/log/mysql
+   - /storage/zabbix/zabbix/etc/zabbix:/etc/zabbix
+   - /storage/zabbix/zabbix/apache2:/etc/apache2
+   - /storage/zabbix/zabbix/logs:/var/log/zabbix
+   - /storage/zabbix/zabbix/php5:/etc/php5
+  networks:
+   - widgets
+networks:
+ widgets:
+  driver: bridge
+  ipam:
+   config:
+    - subnet: 192.168.100.0/24
+      gateway: 192.168.100.1
+      aux_addresses:
+       zabbix3_2-tutoriaisgnulinux: 192.168.100.2
