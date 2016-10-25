@@ -1,7 +1,6 @@
 # Docker Container Zabbix 3.2
 
 * Deploy Docker Container Zabbix 3.2 
-# Projeto:
 - Obs: Homologado para versão do Docker >= 1.12
 <hr>
 * Passo 1 - Contrua a imagem com o comando abaixo:
