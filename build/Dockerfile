@@ -32,8 +32,8 @@ RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N '' -y && \
 RUN echo 'export LANG=C' >> /etc/profile
 
 # Copiando o script de inicialização e o sudoers
-COPY run.sh     /root
-COPY sudoers    /etc
+COPY build/run.sh     /root
+COPY build/sudoers    /etc
 
 # ajustando o /etc/passwd 
 RUN sed -ri 's/zabbix:x:104:107::\/var\/lib\/zabbix\/:\/bin\/false/zabbix:x:104:107::\/etc\/zabbix\/:\/bin\/bash/g' /etc/passwd
