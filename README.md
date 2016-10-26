@@ -48,7 +48,15 @@ MariaDB [(none)]> flush privileges;
 <pre>
 # zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | mysql -uzabbix -pzabbix -h 127.0.0.1 zabbix
 </pre>
+* Passo 8 - Iniciando o Zabbix Server
+<pre>
+# /etc/init.d/zabbix-server start
+</pre>
 
+* Passo 9 - Acessando o Zabbix Web
+<pre>
+http://IP/zabbix/
+</pre>
 
 
 
