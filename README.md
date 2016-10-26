@@ -33,7 +33,7 @@ $ sudo docker ps
 CONTAINER ID        IMAGE                         COMMAND             CREATED             STATUS              PORTS                                                                                                      NAMES
 17bcabfb8b95        zabbix3_2-tutoriaisgnulinux   "/root/run.sh"      3 minutes ago       Up 50 seconds       0.0.0.0:80->80/tcp, 0.0.0.0:10051->10051/tcp, 3306/tcp, 127.0.0.1:2200->22/tcp, 0.0.0.0:32789->10050/tcp   zabbix3_2-tutoriaisgnulinux
 </pre>
-* Passo 6 - Acessando o container por SSH
+* Passo 6 - Acessando o container por SSH (User: root Pass: root)
 <pre>
 $ ssh root@127.0.0.1 -p2200
 </pre>
