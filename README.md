@@ -37,27 +37,8 @@ CONTAINER ID        IMAGE                         COMMAND             CREATED   
 <pre>
 $ ssh root@127.0.0.1 -p2200
 </pre>
-* Passo 7 - Ajustando o Banco de Dados
-<pre>
-# mysql
-MariaDB [(none)]> create database zabbix;
-MariaDB [(none)]> grant all privileges on zabbix.* to 'zabbix'@'127.0.0.1' identified by 'zabbix';
-MariaDB [(none)]> flush privileges;
-</pre>
-* Passo 8 - Criando a estrutura de tabelas do Zabbix 3.2
-<pre>
-# zcat /usr/share/doc/zabbix-server-mysql/create.sql.gz | mysql -uzabbix -pzabbix -h 127.0.0.1 zabbix
-</pre>
-* Passo 8 - Iniciando o Zabbix Server
-<pre>
-# /etc/init.d/zabbix-server start
-</pre>
-
-* Passo 9 - Acessando o Zabbix Web
+* Passo 7 - Acessando o Zabbix Web (User: admin Pass: zabbix)
 <pre>
 http://IP/zabbix/
 </pre>
-
-
-
 
