@@ -328,3 +328,29 @@ InnoDB: buffer...
 161025 22:58:27 [Note] Event Scheduler: Loaded 0 events
 161025 22:58:27 [Note] /usr/sbin/mysqld: ready for connections.
 Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+161026 00:15:21 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161026  0:15:21 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 409 ...
+161026  0:15:21 InnoDB: The InnoDB memory heap is disabled
+161026  0:15:21 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161026  0:15:21 InnoDB: Compressed tables use zlib 1.2.8
+161026  0:15:21 InnoDB: Using Linux native AIO
+161026  0:15:21 InnoDB: Initializing buffer pool, size = 128.0M
+161026  0:15:21 InnoDB: Completed initialization of buffer pool
+161026  0:15:21 InnoDB: highest supported file format is Barracuda.
+InnoDB: Log scan progressed past the checkpoint lsn 6403808
+161026  0:15:21  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+InnoDB: Doing recovery: scanned up to log sequence number 6404049
+161026  0:15:21  InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percents: 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+InnoDB: Apply batch completed
+161026  0:15:21  InnoDB: Waiting for the background threads to start
+161026  0:15:22 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 6404049
+161026  0:15:22 [Note] Plugin 'FEEDBACK' is disabled.
+161026  0:15:22 [Note] Server socket created on IP: '127.0.0.1'.
+161026  0:15:22 [Note] Event Scheduler: Loaded 0 events
+161026  0:15:22 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
