@@ -10,7 +10,7 @@ $ git clone https://github.com/vandocouto/Docker_Container_Zabbix3.2.git
 * Passo 1 - Ajustando o permissionamento:
 <pre>
 $ cd Docker_Container_Zabbix3.2/
-$ sudo hmod -R 777 zabbix-logs/ mysql-logs/
+$ sudo chmod -R 777 zabbix-logs/ mysql-logs/
 $ sudo chown -R landscape:messagebus banco/
 </pre>
 * Passo 2 - Contruíndo a imagem:
