@@ -25,7 +25,7 @@ RUN rm -rf /var/lib/apt/lists/*
 # ajustando o ssh server
 RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N '' -y && \
     sed -ri 's/PermitRootLogin without-password/#PermitRootLogin without-password/g' /etc/ssh/sshd_config && \
-    echo 'root:@senha-aqui' | chpasswd && \
+    echo 'root:root' | chpasswd && \
     mkdir -p /var/run/sshd
 
 # Exportando LANG=C

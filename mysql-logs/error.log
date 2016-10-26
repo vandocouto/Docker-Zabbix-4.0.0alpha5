@@ -1,0 +1,330 @@
+161025 22:08:40 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:08:40 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 408 ...
+161025 22:08:40 [ERROR] mysqld: File '/var/lib/mysql/aria_log_control' not found (Errcode: 13)
+161025 22:08:40 [ERROR] mysqld: Got error 'Can't open file' when trying to use aria control file '/var/lib/mysql/aria_log_control'
+161025 22:08:40 [ERROR] Plugin 'Aria' init function returned error.
+161025 22:08:40 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+161025 22:08:40 InnoDB: The InnoDB memory heap is disabled
+161025 22:08:40 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:08:40 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:08:40 InnoDB: Using Linux native AIO
+161025 22:08:40 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:08:40 InnoDB: Completed initialization of buffer pool
+161025 22:08:40  InnoDB: Operating system error number 13 in a file operation.
+InnoDB: The error means mysqld does not have the access rights to
+InnoDB: the directory.
+InnoDB: File name ./ibdata1
+InnoDB: File operation call: 'open'.
+InnoDB: Cannot continue operation.
+161025 22:08:40 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+161025 22:10:03 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:10:03 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 401 ...
+161025 22:10:03 [ERROR] mysqld: File '/var/lib/mysql/aria_log_control' not found (Errcode: 13)
+161025 22:10:03 [ERROR] mysqld: Got error 'Can't open file' when trying to use aria control file '/var/lib/mysql/aria_log_control'
+161025 22:10:03 [ERROR] Plugin 'Aria' init function returned error.
+161025 22:10:03 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+161025 22:10:03 InnoDB: The InnoDB memory heap is disabled
+161025 22:10:03 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:10:03 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:10:03 InnoDB: Using Linux native AIO
+161025 22:10:03 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:10:03 InnoDB: Completed initialization of buffer pool
+161025 22:10:03  InnoDB: Operating system error number 13 in a file operation.
+InnoDB: The error means mysqld does not have the access rights to
+InnoDB: the directory.
+InnoDB: File name ./ibdata1
+InnoDB: File operation call: 'open'.
+InnoDB: Cannot continue operation.
+161025 22:10:03 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+161025 22:11:36 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:11:37 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 406 ...
+161025 22:11:37 [ERROR] mysqld: File '/var/lib/mysql/aria_log_control' not found (Errcode: 13)
+161025 22:11:37 [ERROR] mysqld: Got error 'Can't open file' when trying to use aria control file '/var/lib/mysql/aria_log_control'
+161025 22:11:37 [ERROR] Plugin 'Aria' init function returned error.
+161025 22:11:37 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+161025 22:11:37 InnoDB: The InnoDB memory heap is disabled
+161025 22:11:37 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:11:37 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:11:37 InnoDB: Using Linux native AIO
+161025 22:11:37 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:11:37 InnoDB: Completed initialization of buffer pool
+161025 22:11:37  InnoDB: Operating system error number 13 in a file operation.
+InnoDB: The error means mysqld does not have the access rights to
+InnoDB: the directory.
+InnoDB: File name ./ibdata1
+InnoDB: File operation call: 'open'.
+InnoDB: Cannot continue operation.
+161025 22:11:37 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+161025 22:21:35 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:21:35 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 401 ...
+161025 22:21:35 [ERROR] mysqld: File '/var/lib/mysql/aria_log_control' not found (Errcode: 13)
+161025 22:21:35 [ERROR] mysqld: Got error 'Can't open file' when trying to use aria control file '/var/lib/mysql/aria_log_control'
+161025 22:21:35 [ERROR] Plugin 'Aria' init function returned error.
+161025 22:21:35 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+161025 22:21:35 InnoDB: The InnoDB memory heap is disabled
+161025 22:21:35 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:21:35 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:21:35 InnoDB: Using Linux native AIO
+161025 22:21:35 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:21:35 InnoDB: Completed initialization of buffer pool
+161025 22:21:35  InnoDB: Operating system error number 13 in a file operation.
+InnoDB: The error means mysqld does not have the access rights to
+InnoDB: the directory.
+InnoDB: File name ./ibdata1
+InnoDB: File operation call: 'open'.
+InnoDB: Cannot continue operation.
+161025 22:21:35 mysqld_safe mysqld from pid file /var/run/mysqld/mysqld.pid ended
+161025 22:25:14 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:25:14 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 401 ...
+161025 22:25:14 InnoDB: The InnoDB memory heap is disabled
+161025 22:25:14 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:25:14 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:25:14 InnoDB: Using Linux native AIO
+161025 22:25:14 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:25:14 InnoDB: Completed initialization of buffer pool
+161025 22:25:14 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161025 22:25:14  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161025 22:25:14  InnoDB: Waiting for the background threads to start
+161025 22:25:15 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 1597945
+161025 22:25:15 [Note] Plugin 'FEEDBACK' is disabled.
+161025 22:25:15 [Note] Server socket created on IP: '127.0.0.1'.
+161025 22:25:15 [Note] Event Scheduler: Loaded 0 events
+161025 22:25:15 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+161025 22:30:26 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:30:26 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 406 ...
+161025 22:30:26 InnoDB: The InnoDB memory heap is disabled
+161025 22:30:26 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:30:26 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:30:26 InnoDB: Using Linux native AIO
+161025 22:30:26 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:30:26 InnoDB: Completed initialization of buffer pool
+161025 22:30:26 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161025 22:30:26  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161025 22:30:26  InnoDB: Waiting for the background threads to start
+161025 22:30:27 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 1597945
+161025 22:30:27 [Note] Plugin 'FEEDBACK' is disabled.
+161025 22:30:27 [Note] Server socket created on IP: '127.0.0.1'.
+161025 22:30:27 [Note] Event Scheduler: Loaded 0 events
+161025 22:30:27 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+161025 22:32:58 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:32:58 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 403 ...
+161025 22:32:58 InnoDB: The InnoDB memory heap is disabled
+161025 22:32:58 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:32:58 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:32:58 InnoDB: Using Linux native AIO
+161025 22:32:58 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:32:58 InnoDB: Completed initialization of buffer pool
+161025 22:32:58 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161025 22:32:58  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161025 22:32:58  InnoDB: Waiting for the background threads to start
+161025 22:32:59 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 1597945
+161025 22:32:59 [Note] Plugin 'FEEDBACK' is disabled.
+161025 22:32:59 [Note] Server socket created on IP: '127.0.0.1'.
+161025 22:32:59 [Note] Event Scheduler: Loaded 0 events
+161025 22:32:59 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+161025 22:35:32 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:35:32 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 406 ...
+161025 22:35:32 InnoDB: The InnoDB memory heap is disabled
+161025 22:35:32 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:35:32 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:35:32 InnoDB: Using Linux native AIO
+161025 22:35:32 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:35:32 InnoDB: Completed initialization of buffer pool
+161025 22:35:32 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161025 22:35:32  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161025 22:35:32  InnoDB: Waiting for the background threads to start
+161025 22:35:33 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 1597945
+161025 22:35:33 [Note] Plugin 'FEEDBACK' is disabled.
+161025 22:35:33 [Note] Server socket created on IP: '127.0.0.1'.
+161025 22:35:33 [Note] Event Scheduler: Loaded 0 events
+161025 22:35:33 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+161025 22:36:08 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:36:08 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 403 ...
+161025 22:36:08 InnoDB: The InnoDB memory heap is disabled
+161025 22:36:08 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:36:08 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:36:08 InnoDB: Using Linux native AIO
+161025 22:36:08 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:36:08 InnoDB: Completed initialization of buffer pool
+161025 22:36:08 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161025 22:36:08  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161025 22:36:08  InnoDB: Waiting for the background threads to start
+161025 22:36:09 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 1597945
+161025 22:36:09 [Note] Plugin 'FEEDBACK' is disabled.
+161025 22:36:09 [Note] Server socket created on IP: '127.0.0.1'.
+161025 22:36:09 [Note] Event Scheduler: Loaded 0 events
+161025 22:36:09 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+161025 22:36:45 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:36:45 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 403 ...
+161025 22:36:45 InnoDB: The InnoDB memory heap is disabled
+161025 22:36:45 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:36:45 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:36:45 InnoDB: Using Linux native AIO
+161025 22:36:45 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:36:45 InnoDB: Completed initialization of buffer pool
+161025 22:36:45 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161025 22:36:45  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161025 22:36:45  InnoDB: Waiting for the background threads to start
+161025 22:36:46 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 1597945
+161025 22:36:46 [Note] Plugin 'FEEDBACK' is disabled.
+161025 22:36:46 [Note] Server socket created on IP: '127.0.0.1'.
+161025 22:36:46 [Note] Event Scheduler: Loaded 0 events
+161025 22:36:46 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+161025 22:40:07 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:40:07 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 406 ...
+161025 22:40:07 InnoDB: The InnoDB memory heap is disabled
+161025 22:40:07 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:40:07 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:40:07 InnoDB: Using Linux native AIO
+161025 22:40:07 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:40:07 InnoDB: Completed initialization of buffer pool
+161025 22:40:07 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161025 22:40:07  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161025 22:40:07  InnoDB: Waiting for the background threads to start
+161025 22:40:08 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 1597945
+161025 22:40:08 [Note] Plugin 'FEEDBACK' is disabled.
+161025 22:40:08 [Note] Server socket created on IP: '127.0.0.1'.
+161025 22:40:08 [Note] Event Scheduler: Loaded 0 events
+161025 22:40:08 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+161025 22:40:42 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:40:42 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 403 ...
+161025 22:40:42 InnoDB: The InnoDB memory heap is disabled
+161025 22:40:42 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:40:42 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:40:42 InnoDB: Using Linux native AIO
+161025 22:40:42 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:40:42 InnoDB: Completed initialization of buffer pool
+161025 22:40:42 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161025 22:40:42  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161025 22:40:42  InnoDB: Waiting for the background threads to start
+161025 22:40:43 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 1597945
+161025 22:40:43 [Note] Plugin 'FEEDBACK' is disabled.
+161025 22:40:43 [Note] Server socket created on IP: '127.0.0.1'.
+161025 22:40:43 [Note] Event Scheduler: Loaded 0 events
+161025 22:40:43 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+161025 22:41:11 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:41:11 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 403 ...
+161025 22:41:11 InnoDB: The InnoDB memory heap is disabled
+161025 22:41:11 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:41:11 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:41:11 InnoDB: Using Linux native AIO
+161025 22:41:11 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:41:11 InnoDB: Completed initialization of buffer pool
+161025 22:41:11 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161025 22:41:11  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161025 22:41:11  InnoDB: Waiting for the background threads to start
+161025 22:41:12 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 1597945
+161025 22:41:12 [Note] Plugin 'FEEDBACK' is disabled.
+161025 22:41:12 [Note] Server socket created on IP: '127.0.0.1'.
+161025 22:41:12 [Note] Event Scheduler: Loaded 0 events
+161025 22:41:12 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+161025 22:47:23 mysqld_safe A mysqld process already exists
+161025 22:48:46 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:48:46 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 403 ...
+161025 22:48:46 InnoDB: The InnoDB memory heap is disabled
+161025 22:48:46 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:48:46 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:48:46 InnoDB: Using Linux native AIO
+161025 22:48:46 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:48:46 InnoDB: Completed initialization of buffer pool
+161025 22:48:46 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161025 22:48:46  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161025 22:48:46  InnoDB: Waiting for the background threads to start
+161025 22:48:47 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 1597945
+161025 22:48:47 [Note] Plugin 'FEEDBACK' is disabled.
+161025 22:48:47 [Note] Server socket created on IP: '127.0.0.1'.
+161025 22:48:47 [Note] Event Scheduler: Loaded 0 events
+161025 22:48:47 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)
+161025 22:58:26 mysqld_safe Starting mysqld daemon with databases from /var/lib/mysql
+161025 22:58:26 [Note] /usr/sbin/mysqld (mysqld 5.5.52-MariaDB-1ubuntu0.14.04.1) starting as process 413 ...
+161025 22:58:26 InnoDB: The InnoDB memory heap is disabled
+161025 22:58:26 InnoDB: Mutexes and rw_locks use GCC atomic builtins
+161025 22:58:26 InnoDB: Compressed tables use zlib 1.2.8
+161025 22:58:26 InnoDB: Using Linux native AIO
+161025 22:58:26 InnoDB: Initializing buffer pool, size = 128.0M
+161025 22:58:26 InnoDB: Completed initialization of buffer pool
+161025 22:58:26 InnoDB: highest supported file format is Barracuda.
+InnoDB: The log sequence number in ibdata files does not match
+InnoDB: the log sequence number in the ib_logfiles!
+161025 22:58:26  InnoDB: Database was not shut down normally!
+InnoDB: Starting crash recovery.
+InnoDB: Reading tablespace information from the .ibd files...
+InnoDB: Restoring possible half-written data pages from the doublewrite
+InnoDB: buffer...
+161025 22:58:26  InnoDB: Waiting for the background threads to start
+161025 22:58:27 Percona XtraDB (http://www.percona.com) 5.5.49-MariaDB-38.0 started; log sequence number 6389978
+161025 22:58:27 [Note] Plugin 'FEEDBACK' is disabled.
+161025 22:58:27 [Note] Server socket created on IP: '127.0.0.1'.
+161025 22:58:27 [Note] Event Scheduler: Loaded 0 events
+161025 22:58:27 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.5.52-MariaDB-1ubuntu0.14.04.1'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  (Ubuntu)

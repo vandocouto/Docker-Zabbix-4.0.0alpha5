@@ -1,0 +1,13 @@
+    29:20161025:225825.164 Starting Zabbix Agent [Zabbix server]. Zabbix 3.2.1 (revision 62890).
+    29:20161025:225825.164 **** Enabled features ****
+    29:20161025:225825.164 IPv6 support:          YES
+    29:20161025:225825.164 TLS support:           YES
+    29:20161025:225825.164 **************************
+    29:20161025:225825.164 using configuration file: /etc/zabbix/zabbix_agentd.conf
+    29:20161025:225825.164 agent #0 started [main process]
+    34:20161025:225825.165 agent #4 started [listener #3]
+    35:20161025:225825.165 agent #5 started [active checks #1]
+    33:20161025:225825.166 agent #3 started [listener #2]
+    32:20161025:225825.168 agent #2 started [listener #1]
+    31:20161025:225825.170 agent #1 started [collector]
+    35:20161025:225825.172 active check configuration update from [127.0.0.1:10051] started to fail (cannot connect to [[127.0.0.1]:10051]: [111] Connection refused)

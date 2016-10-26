@@ -11,14 +11,15 @@ services:
    - "80:80"
    - "10050"
    - "10051:10051"
+   - "127.0.0.1:2200:22"
   volumes:
-   - /storage/zabbix/mariadb/etc:/etc/mysql
-   - /storage/zabbix/mariadb/dados:/var/lib/mysql
-   - /storage/zabbix/mariadb/logs:/var/log/mysql
-   - /storage/zabbix/zabbix/etc/zabbix:/etc/zabbix
-   - /storage/zabbix/zabbix/apache2:/etc/apache2
-   - /storage/zabbix/zabbix/logs:/var/log/zabbix
-   - /storage/zabbix/zabbix/php5:/etc/php5
+   - ./mariadb:/etc/mysql
+   - ./banco:/var/lib/mysql
+   - ./mysql-logs:/var/log/mysql
+   - ./zabbix:/etc/zabbix
+   - ./apache2:/etc/apache2
+   - ./zabbix-logs:/var/log/zabbix
+   - ./php5:/etc/php5
   networks:
    - widgets
 networks:
@@ -28,5 +29,3 @@ networks:
    config:
     - subnet: 192.168.100.0/24
       gateway: 192.168.100.1
-      aux_addresses:
-       zabbix3_2-tutoriaisgnulinux: 192.168.100.2
