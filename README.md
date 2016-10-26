@@ -41,13 +41,8 @@ $ ssh root@127.0.0.1 -p2200
 <pre>
 # mysql
 MariaDB [(none)]> create database zabbix;
-Query OK, 1 row affected (0.00 sec)
-
 MariaDB [(none)]> grant all privileges on zabbix.* to 'zabbix'@'127.0.0.1' identified by 'zabbix';
-Query OK, 0 rows affected (0.00 sec)
-
 MariaDB [(none)]> flush privileges;
-Query OK, 0 rows affected (0.00 sec)
 </pre>
 * Passo 8 - Ajustando o Zabbix Server
 <pre>
