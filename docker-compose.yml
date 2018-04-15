@@ -1,22 +1,69 @@
-version: '2'
+# version 3 
+version: "3"
+
 services:
- zabbix3_2-tutoriaisgnulinux:
-  image: zabbix3_2-tutoriaisgnulinux
-  hostname: zabbix3_2-tutoriaisgnulinux
-  container_name: zabbix3_2-tutoriaisgnulinux
+
+ mariadb:
+  image: registry.d2d.com.br:5000/mysqlzabbix:1.5.0
+  command: ./run.sh
+  env_file: './environment.env'
   privileged: true
-  expose:
-   - "22"
+  ports:
+   - "3306:3306"
+  networks:
+   - zabbix
+  volumes:
+   - ./build-mariadb/my.cnf:/etc/mysql/my.cnf
+   - mysql:/var/lib/mysql/
+  hostname: mariadb
+  container_name: mariadb
+  restart: always
+  logging:
+    driver: "json-file"
+    options:
+      max-size: "250m"
+      max-file: "3"
+  networks:
+   zabbix:
+    ipv4_address: 192.168.1.100
+
+ zabbix:
+  image: registry.d2d.com.br:5000/zabbix:1.2.0
+  command: sleep 1000000000000
+  env_file: './environment.env'
+  hostname: zabbix
+  container_name: zabbix
+  privileged: true
   ports:
    - "80:80"
    - "10050"
    - "10051:10051"
-   - "127.0.0.1:2200:22"
   volumes:
-   - ./mariadb:/etc/mysql
-   - ./banco:/var/lib/mysql
-   - ./mysql-logs:/var/log/mysql
-   - ./zabbix:/etc/zabbix
-   - ./apache2:/etc/apache2
-   - ./zabbix-logs:/var/log/zabbix
-   - ./php5:/etc/php5
+   - ./zabbix:/etc/zabbix/
+   - zabbix:/zabbix/
+  networks:
+   - zabbix
+  restart: always
+  logging:
+    driver: "json-file"
+    options:
+      max-size: "250m"
+      max-file: "3"
+  networks:
+   zabbix:
+    ipv4_address: 192.168.1.101
+
+volumes:
+ mysql:
+  external:
+   name: mysql
+ zabbix:
+  external:
+   name: zabbix  
+
+networks:
+ zabbix:
+  driver: bridge
+  ipam:
+   config:
+    - subnet: 192.168.1.0/24
