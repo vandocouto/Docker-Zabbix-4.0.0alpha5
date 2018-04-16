@@ -15,4 +15,3 @@ RUN apt-get update -y ; apt-get upgrade -y && \
 
 COPY build-mariadb/run.sh 	/run.sh
 COPY build-mariadb/my.cnf 	/etc/mysql/
-COPY build-mariadb/script.sh 	/

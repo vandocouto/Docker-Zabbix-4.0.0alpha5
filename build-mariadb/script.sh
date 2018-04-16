@@ -1,4 +1,0 @@
-#!/bin/bash
-
-echo "GRANT ALL PRIVILEGES ON *.* TO $ZB_MYSQL_USER@'$ZB_ZABBIX_IP' IDENTIFIED BY '$ZB_MYSQL_PASS'; " | mysql
-echo "FLUSH PRIVILEGES;" | mysql

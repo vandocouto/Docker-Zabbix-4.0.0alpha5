@@ -15,6 +15,5 @@ docker-compose up -d
 ```
 
 ```bash
-docker exec -it mariadb ./script.sh
+docker exec -it zabbix bash
 ```
-

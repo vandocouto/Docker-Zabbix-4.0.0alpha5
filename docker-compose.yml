@@ -38,7 +38,6 @@ services:
    - "80:80"
    - "10051:10051"
   volumes:
-   - ./zabbix:/etc/zabbix/
    - zabbix:/zabbix/
   networks:
    - zabbix
