@@ -23,6 +23,7 @@ RUN apt-get update && apt-get upgrade -y && \
 COPY build-zabbix/run.sh     	/
 COPY build-zabbix/sudoers    	/etc
 COPY build-zabbix/php.ini	/etc/php/7.0/apache2/php.ini
+COPY build-zabbix/php.ini	/etc/php/7.0/cli/php.ini
 
 EXPOSE 80
 EXPOSE 10050

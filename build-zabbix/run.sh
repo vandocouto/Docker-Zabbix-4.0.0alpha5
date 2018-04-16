@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sleep 30
+sleep 10
 echo "USE zabbix" |  mysql -u $ZB_MYSQL_USER -h $ZB_MYSQL_HOST -p$ZB_MYSQL_PASS
 
 if [ $? -ne 0 ]; then
