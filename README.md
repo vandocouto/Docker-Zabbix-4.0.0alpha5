@@ -24,8 +24,8 @@ docker exec -it zabbix bash
 ```
 Step 6 - Access Zabbix url
 
+```bash
 **http://IP/zabbix**
-
 User: admin
-  
 Pass: zabbix
+```
