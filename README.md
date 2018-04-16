@@ -26,5 +26,6 @@ Step 6 - Access Zabbix url
 
 **http://IP/zabbix**
 
-  User: admin
-  Pass: zabbix
+User: admin
+  
+Pass: zabbix
