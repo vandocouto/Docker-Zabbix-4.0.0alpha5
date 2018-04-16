@@ -5,9 +5,8 @@ MAINTAINER Evandro Couto "vandocouto@gmail.com"
 
 RUN apt-get update -y ; apt-get upgrade -y && \
     apt-get install apt-utils telnet mytop vim ifstat unzip mariadb-server mariadb-client iputils-ping net-tools tzdata -y && \
-    rm -rf /var/lib/apt/lists/*
-
-RUN mkdir -p /var/run/mysqld && \
+    rm -rf /var/lib/apt/lists/* && \
+    mkdir -p /var/run/mysqld && \
     chown mysql:mysql /var/run/mysqld && \
     chown mysql:mysql /var/lib/mysql && \
     echo 'export LANG=C' >> /etc/profile && \
