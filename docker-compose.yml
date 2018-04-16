@@ -4,7 +4,7 @@ version: "3"
 services:
 
  mariadb:
-  image: registry.d2d.com.br:5000/mysqlzabbix:1.5.0
+  image: registry.d2d.com.br:5000/mariadb:1.0.0
   command: ./run.sh
   env_file: './environment.env'
   privileged: true
@@ -28,7 +28,7 @@ services:
     ipv4_address: 192.168.1.100
 
  zabbix:
-  image: registry.d2d.com.br:5000/zabbix:1.2.0
+  image: registry.d2d.com.br:5000/zabbix:1.0.0
   command: sleep 1000000000000
   env_file: './environment.env'
   hostname: zabbix
