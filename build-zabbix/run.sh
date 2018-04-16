@@ -15,6 +15,11 @@ if [ $? -ne 0 ]; then
 	sed -i 's/$ZB_MYSQL_PASS/'$ZB_MYSQL_PASS'/g'    			/etc/zabbix/zabbix_server.conf
 	sed -i 's/;date.timezone =/date.timezone=America\/Sao_Paulo/g'		/etc/php/7.0/apache2/php.ini
 	sed -i 's/;date.timezone =/date.timezone=America\/Sao_Paulo/g'		/etc/php/7.0/cli/php.ini
+        sed -i 's/$ZB_MYSQL_HOST/'$ZB_MYSQL_HOST'/g'				/usr/share/zabbix/conf/zabbix.conf.php
+        sed -i 's/$ZB_MYSQL_BD/'$ZB_MYSQL_BD'/g'				/usr/share/zabbix/conf/zabbix.conf.php
+        sed -i 's/$ZB_MYSQL_USER/'$ZB_MYSQL_USER'/g'				/usr/share/zabbix/conf/zabbix.conf.php
+        sed -i 's/$ZB_MYSQL_PASS/'$ZB_MYSQL_PASS'/g'				/usr/share/zabbix/conf/zabbix.conf.php
+        sed -i 's/$ZB_ZABBIX_HOST/'$ZB_ZABBIX_HOST'/g'				/usr/share/zabbix/conf/zabbix.conf.php
  
 fi
 

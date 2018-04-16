@@ -20,10 +20,11 @@ RUN apt-get update && apt-get upgrade -y && \
     locale-gen pt_BR && \
     locale-gen pt_PT
 
-COPY build-zabbix/run.sh     	/
-COPY build-zabbix/sudoers    	/etc
-COPY build-zabbix/php.ini	/etc/php/7.0/apache2/php.ini
-COPY build-zabbix/php.ini	/etc/php/7.0/cli/php.ini
+COPY build-zabbix/run.sh     		/
+COPY build-zabbix/sudoers    		/etc
+COPY build-zabbix/php.ini		/etc/php/7.0/apache2/php.ini
+#COPY build-zabbix/php.ini		/etc/php/7.0/cli/php.ini
+COPY build-zabbix/zabbix.conf.php	/usr/share/zabbix/conf/
 
 EXPOSE 80
 EXPOSE 10050
