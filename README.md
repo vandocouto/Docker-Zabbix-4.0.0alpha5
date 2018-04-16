@@ -1,4 +1,4 @@
-# Zabbix 3.5
+# Docker-Zabbix-4.0.0alpha5 
 
 Step 1 - Build Images MariaDB and Zabbix
 ```bash
