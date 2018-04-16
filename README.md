@@ -22,3 +22,5 @@ Step 5 - Access Container Zabbix
 ```bash
 docker exec -it zabbix bash
 ```
+Step 6 - Access Zabbix url
+**http://IP/zabbix**
