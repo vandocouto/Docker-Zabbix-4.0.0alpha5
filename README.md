@@ -2,8 +2,8 @@
 
 
 ```bash
-docker build -f build-mariadb/Dockerfile -t registry.d2d.com.br:5000/mariadb:1.0.0 .
-docker build -f build-zabbix/Dockerfile -t registry.d2d.com.br:5000/zabbix:1.0.0 .
+docker build -f build-mariadb/Dockerfile -t mariadb:1.0.0 .
+docker build -f build-zabbix/Dockerfile -t zabbix:1.0.0 .
 ```
 
 ```bash
