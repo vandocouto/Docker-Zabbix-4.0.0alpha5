@@ -12,7 +12,6 @@ RUN apt-get update && apt-get upgrade -y && \
     apt-get install zabbix-server-mysql zabbix-frontend-php zabbix-agent zabbix-get zabbix-sender snmp snmpd snmp-mibs-downloader php7.0-bcmath php7.0-xml php7.0-mbstring -y && \
     rm -rf /var/lib/apt/lists/* && \
     mkdir /zabbix && \
-    pip install awscli --ignore-installed six && \
     echo 'export LANG=C' >> /etc/profile && \
     rm /etc/localtime && \
     ln -s /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime && \
@@ -21,9 +20,8 @@ RUN apt-get update && apt-get upgrade -y && \
     locale-gen pt_BR && \
     locale-gen pt_PT
 
-COPY build-zabbix/run.sh     	/root
+COPY build-zabbix/run.sh     	/
 COPY build-zabbix/sudoers    	/etc
-COPY build-zabbix/script.sh	/	
 
 EXPOSE 80
 EXPOSE 10050
